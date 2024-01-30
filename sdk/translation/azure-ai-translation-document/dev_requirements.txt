@@ -3,4 +3,4 @@
 ../../core/azure-core
 ../../storage/azure-storage-blob
 ../../nspkg/azure-ai-translation-nspkg
-aiohttp>=3.0; python_version >= '3.5'
+aiohttp>=3.9.2; python_version >= '3.5'
