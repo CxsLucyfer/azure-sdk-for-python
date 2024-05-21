@@ -5,3 +5,4 @@
 azure-mgmt-loganalytics==2.0.0
 -e ../../resources/azure-mgmt-msi/
 -e ../../../tools/azure-devtools
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
