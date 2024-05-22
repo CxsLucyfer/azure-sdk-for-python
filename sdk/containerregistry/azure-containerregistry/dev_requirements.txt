@@ -4,3 +4,4 @@
 ../azure-mgmt-containerregistry
 aiohttp>=3.0; python_version >= '3.5'
 azure-identity
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
