@@ -2,3 +2,4 @@
 msrestazure
 ../../core/azure-core
 -e ../../../tools/azure-devtools
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
