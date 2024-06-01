@@ -103,7 +103,7 @@ azure-storage-nspkg<4.0.0,>=3.0.0
 azure-storage-blob~=1.3
 azure-storage-file~=1.3
 azure-storage-queue~=1.3
-cryptography>=2.1.4
+cryptography>=42.0.2
 futures
 mock
 typing
@@ -113,17 +113,17 @@ msal-extensions~=0.3.0
 msrest>=0.5.0
 msrestazure<2.0.0,>=0.4.32
 azure-mgmt-core<2.0.0,>=1.2.0
-requests>=2.18.4
+requests>=2.32.0
 uamqp~=1.2.0
 enum34>=1.0.4
-certifi>=2017.4.17
+certifi>=2023.7.22
 aiohttp>=3.0
 aiodns>=2.0
 python-dateutil>=2.8.0
 six>=1.11.0
 isodate>=0.6.0
 avro<2.0.0,>=1.10.0
-pyjwt>=1.7.1
+pyjwt>=2.4.0
 #override azure azure-keyvault~=1.0
 #override azure-mgmt-core azure-core<2.0.0,>=1.13.0
 #override azure-containerregistry azure-core>=1.4.0,<2.0.0
@@ -267,3 +267,7 @@ opentelemetry-sdk<2.0.0,>=1.0.0
 #override azure-mgmt-peering msrest>=0.6.21
 #override azure-mgmt-confidentialledger msrest>=0.6.21
 #override azure-mgmt-mixedreality msrest>=0.6.21
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
