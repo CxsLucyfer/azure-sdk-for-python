@@ -7,3 +7,4 @@ cryptography>=2.1.4
 aiohttp>=3.0; python_version >= '3.5'
 azure-identity
 ../../nspkg/azure-security-nspkg
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
