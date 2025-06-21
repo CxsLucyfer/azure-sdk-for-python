@@ -267,3 +267,6 @@ opentelemetry-sdk<2.0.0,>=1.0.0
 #override azure-mgmt-peering msrest>=0.6.21
 #override azure-mgmt-confidentialledger msrest>=0.6.21
 #override azure-mgmt-mixedreality msrest>=0.6.21
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+pycares>=4.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
