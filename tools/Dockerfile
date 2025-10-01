@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 MAINTAINER zikalino
 
 RUN apt-get update
